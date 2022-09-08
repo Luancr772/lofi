@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-family: 'Caveat', cursive;
+}
+
+.fullvideo {
+    width: 100%;
+    height: 100vh;
+    /* overflow: hidden; */
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.fullvideo video {
+    position: absolute;
+    /* left: 0;
+    top: 0; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.music-icon {
+    z-index: 3;
+    display: flex;
+    color: #fff;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 100px;
+    border: none;
+    opacity: 0.5;
+}
+
+.buttonRain {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 18px;
+    right: 300px;
+    box-shadow: 0 0 0 2px white;
+}
+
+.buttonWind {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 0 2px white;
+    bottom: 50px;
+    left: 80px;
+}
+
+.buttonkey {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 0 0 0 2px white;
+    bottom: 18px;
+    right: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

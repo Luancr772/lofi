@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Full video + màn hình -->
+    <div class="fullvideo">
+
+        <!-- Màn hình -->
+        <video autoplay loop src="./video/norain.mp4"></video>
+
+        <div class="music-icon">
+
+            <!-- <h2>Alway with me</h2> -->
+
+            <!-- Tua bài trước -->
+            <ion-icon name="play-back-circle-outline" class="music-back"></ion-icon>
+            <!-- Bấm dừng / phát -->
+            <div class="play-inner">
+                <ion-icon name="play-circle-outline" class="music-play"></ion-icon>
+            </div>
+            <!-- Next bài sau -->
+            <ion-icon name="play-forward-circle-outline" class="music-forward"></ion-icon>
+
+        </div>
+
+
+        <audio src="./sound/Phodalenden.mp3" id="song"></audio>
+    </div>
+
+    <div class="buttonRain">
+        <audio loop src="./sound/Tieng-troi-mua-nhe-www_tiengdong_com.mp3" id="Rainn"></audio>
+    </div>
+
+    <div class="buttonWind">
+        <audio loop src="./sound/tienggio.mp3" id = "Wind"></audio>
+    </div>
+
+    <div class="buttonkey">
+        <audio loop src="./sound/Tiếng Gõ Bàn Phím Máy Tính-tainhacchuong24h.com.mp3" id = "soundkey"></audio>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
